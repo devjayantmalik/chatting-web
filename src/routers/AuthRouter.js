@@ -3,8 +3,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Header from "../components/Header";
 import LandingPage from "../pages/Auth/LandingPage";
-import Login from "../pages/Login";
-import Signup from "../pages/Signup";
+import Login from "../pages/Auth/Login";
+import Signup from "../pages/Auth/Signup";
 
 const AuthRouter = () => {
   return (
