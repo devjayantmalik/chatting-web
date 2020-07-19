@@ -1,5 +1,6 @@
 import React from "react";
+import AuthHeader from "./AuthHeader";
 
-const Header = () => null;
+const Header = () => <AuthHeader />;
 
 export default Header;
