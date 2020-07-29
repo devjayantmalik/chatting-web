@@ -22,7 +22,7 @@ const LandingPage = () => {
                   />
                 </p>
                 <p class="control">
-                  <a class="button is-info">Notify Me</a>
+                  <button class="button is-info">Notify Me</button>
                 </p>
               </div>
             </div>

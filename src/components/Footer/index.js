@@ -6,7 +6,10 @@ const Footer = () => {
       <div className="container">
         <div className="tabs is-centered">
           <ul>
-            <li>And this is the bottom</li>
+            <li>
+              &copy; Jayant Malik - {new Date().getFullYear()} | Made in{" "}
+              <strong>BHARAT</strong>
+            </li>
           </ul>
         </div>
       </div>

@@ -6,7 +6,7 @@ const MenuItem = ({ url, title }) => {
   let isActive = useLocation().pathname === url ? "is-active" : "";
 
   return (
-    <li className={isActive}>
+    <li className={`navbar-item ${isActive}`}>
       <Link to={url} title={title}>
         {title}
       </Link>
